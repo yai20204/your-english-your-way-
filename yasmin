@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your English, Your Way - Aulas de Inglês Online</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Your English, Your Way</div>
+            <ul class="nav-links">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#planos">Planos</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contato" class="btn-nav">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/5511999999999" target="_blank" class="whatsapp-float">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>YOUR ENGLISH, YOUR WAY</h1>
+                <p>O inglês do seu jeito. Para os seus objetivos.</p>
+                <p class="hero-description">Aprenda inglês com aulas 100% online, desenvolvidas para atender às suas necessidades. Seja para viagens, trabalho, faculdade, provas, conversação ou para começar do zero.</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="scrollToSection('contato')">Agendar aula experimental</button>
+                    <a href="https://wa.me/5511999999999" target="_blank" class="btn btn-secondary">
+                        <i class="fab fa-whatsapp"></i> Falar no WhatsApp
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="placeholder-image">
+                    <i class="fas fa-user-circle"></i>
+                    <p>Sua foto aqui</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits">
+        <div class="container">
+            <h2>Por que escolher o Your English, Your Way?</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <i class="fas fa-globe"></i>
+                    <h3>Aulas 100% online</h3>
+                    <p>Aprenda de qualquer lugar, no conforto da sua casa</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fas fa-brain"></i>
+                    <h3>Metodologia interativa</h3>
+                    <p>Nada tradicional, totalmente envolvente</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>Horários flexíveis</h3>
+                    <p>Estude quando melhor convém para você</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fas fa-book"></i>
+                    <h3>Materiais exclusivos</h3>
+                    <p>Conteúdo digital criado especialmente para você</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Acompanhamento individual</h3>
+                    <p>Seu progresso é nossa prioridade</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fas fa-target"></i>
+                    <h3>Resultados reais</h3>
+                    <p>Aprenda apenas o que faz sentido para seus objetivos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Personalized Section -->
+    <section class="personalized" id="sobre">
+        <div class="container">
+            <div class="personalized-content">
+                <div class="personalized-text">
+                    <h2>Cada aluno é único</h2>
+                    <p>Por isso, antes de iniciarmos as aulas, você realiza uma <strong>avaliação diagnóstica</strong>.</p>
+                    <p>Essa avaliação permite identificar:</p>
+                    <ul>
+                        <li>✓ Seu nível de inglês</li>
+                        <li>✓ Seus objetivos</li>
+                        <li>✓ Suas dificuldades</li>
+                        <li>✓ Suas necessidades</li>
+                    </ul>
+                    <p>Assim, as aulas são totalmente personalizadas desde o primeiro encontro, e você aprende apenas o que realmente faz sentido para alcançar seus objetivos.</p>
+                </div>
+                <div class="personalized-image">
+                    <div class="placeholder-image-small">
+                        <i class="fas fa-clipboard-check"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Study Section -->
+    <section class="why-study">
+        <div class="container">
+            <h2>Por que estudar comigo?</h2>
+            <div class="why-study-grid">
+                <div class="why-card">
+                    <i class="fas fa-bullseye"></i>
+                    <h3>Plano de estudos personalizado</h3>
+                </div>
+                <div class="why-card">
+                    <i class="fas fa-book-open"></i>
+                    <h3>Material digital exclusivo</h3>
+                </div>
+                <div class="why-card">
+                    <i class="fas fa-comments"></i>
+                    <h3>Conversação desde o início</h3>
+                </div>
+                <div class="why-card">
+                    <i class="fas fa-scroll"></i>
+                    <h3>Conteúdo baseado nas suas necessidades</h3>
+                </div>
+                <div class="why-card">
+                    <i class="fas fa-chart-bar"></i>
+                    <h3>Acompanhamento contínuo</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- For Whom Section -->
+    <section class="for-whom">
+        <div class="container">
+            <h2>Para quem são as aulas?</h2>
+            <div class="for-whom-list">
+                <div class="for-whom-item">
+                    <i class="fas fa-check-circle"></i>
+                    <p>Quem está começando do zero</p>
+                </div>
+                <div class="for-whom-item">
+                    <i class="fas fa-check-circle"></i>
+                    <p>Quem quer destravar a conversação</p>
+                </div>
+                <div class="for-whom-item">
+                    <i class="fas fa-check-circle"></i>
+                    <p>Quem precisa de inglês para viagens</p>
+                </div>
+                <div class="for-whom-item">
+                    <i class="fas fa-check-circle"></i>
+                    <p>Quem deseja melhorar o inglês para o trabalho</p>
+                </div>
+                <div class="for-whom-item">
+                    <i class="fas fa-check-circle"></i>
+                    <p>Quem busca reforço escolar ou universitário</p>
+                </div>
+                <div class="for-whom-item">
+                    <i class="fas fa-check-circle"></i>
+                    <p>Quem quer estudar no próprio ritmo</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Plans Section -->
+    <section class="plans" id="planos">
+        <div class="container">
+            <h2>Planos</h2>
+            <div class="plans-grid">
+                <div class="plan-card">
+                    <div class="plan-header">Individual</div>
+                    <div class="plan-body">
+                        <p class="plan-description">Aulas totalmente personalizadas com foco exclusivo nos seus objetivos.</p>
+                        <p class="plan-ideal">Ideal para quem deseja uma evolução mais rápida.</p>
+                        <button class="btn btn-primary" onclick="scrollToSection('contato')">Escolher este plano</button>
+                    </div>
+                </div>
+                <div class="plan-card highlighted">
+                    <div class="plan-header">Dupla</div>
+                    <div class="plan-body">
+                        <p class="plan-description">Aprenda com um amigo, familiar ou parceiro de estudos.</p>
+                        <p class="plan-ideal">Mais interação e prática durante as aulas.</p>
+                        <button class="btn btn-primary" onclick="scrollToSection('contato')">Escolher este plano</button>
+                    </div>
+                </div>
+                <div class="plan-card">
+                    <div class="plan-header">Conversação</div>
+                    <div class="plan-body">
+                        <p class="plan-description">Encontros voltados para desenvolver fluência, confiança e pronúncia.</p>
+                        <p class="plan-ideal">Indicado para quem já possui uma base de inglês.</p>
+                        <button class="btn btn-primary" onclick="scrollToSection('contato')">Escolher este plano</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works">
+        <div class="container">
+            <h2>Como funcionam as aulas?</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <p>Você entra em contato pelo WhatsApp</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <p>Agendamos uma aula experimental</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <p>Realizamos a avaliação diagnóstica</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <p>Elaboro seu plano de estudos personalizado</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">5</div>
+                    <p>Começamos as aulas</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <h2>Perguntas frequentes</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h3>Qual plataforma é utilizada?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>As aulas acontecem pelo Google Meet, com compartilhamento de tela, materiais digitais e atividades interativas.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h3>Quanto tempo dura cada aula?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>As aulas têm duração de 60 minutos, podendo ser ajustadas conforme o plano escolhido.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h3>Preciso saber inglês?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Não. As aulas são adaptadas para todos os níveis, desde iniciantes até alunos avançados.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h3>Receberei material?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sim. Todo o material é digital, exclusivo e disponibilizado durante o curso.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta" id="contato">
+        <div class="container">
+            <h2>Agende sua aula experimental</h2>
+            <p>Descubra seu nível de inglês e receba um plano de estudos pensado especialmente para você.</p>
+            <a href="https://wa.me/5511999999999" target="_blank" class="btn btn-primary btn-large">
+                <i class="fab fa-whatsapp"></i> Quero falar no WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Your English, Your Way</h3>
+                    <p>O inglês que acompanha os seus objetivos.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="https://wa.me/5511999999999" target="_blank" title="WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your English, Your Way - Aulas de Inglês Online</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Your English, Your Way</div>
+            <ul class="nav-links">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#planos">Planos</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contato" class="btn-nav">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/5511999999999" target="_blank" class="whatsapp-float">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>YOUR ENGLISH, YOUR WAY</h1>
+                <p>O inglês do seu jeito. Para os seus objetivos.</p>
+                <p class="hero-description">Aprenda inglês com aulas 100% online, desenvolvidas para atender às suas necessidades. Seja para viagens, trabalho, faculdade, provas, conversação ou para começar do zero.</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="scrollToSection('contato')">Agendar aula experimental</button>
+                    <a href="https://wa.me/5511999999999" target="_blank" class="btn btn-secondary">
+                        <i class="fab fa-whatsapp"></i> Falar no WhatsApp
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="placeholder-image">
+                    <i class="fas fa-user-circle"></i>
+                    <p>Sua foto aqui</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits">
+        <div class="container">
+            <h2>Por que escolher o Your English, Your Way?</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <i class="fas fa-globe"></i>
+                    <h3>Aulas 100% online</h3>
+                    <p>Aprenda de qualquer lugar, no conforto da sua casa</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fas fa-brain"></i>
+                    <h3>Metodologia interativa</h3>
+                    <p>Nada tradicional, totalmente envolvente</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>Horários flexíveis</h3>
+                    <p>Estude quando melhor convém para você</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fas fa-book"></i>
+                    <h3>Materiais exclusivos</h3>
+                    <p>Conteúdo digital criado especialmente para você</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Acompanhamento individual</h3>
+                    <p>Seu progresso é nossa prioridade</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fas fa-target"></i>
+                    <h3>Resultados reais</h3>
+                    <p>Aprenda apenas o que faz sentido para seus objetivos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Personalized Section -->
+    <section class="personalized" id="sobre">
+        <div class="container">
+            <div class="personalized-content">
+                <div class="personalized-text">
+                    <h2>Cada aluno é único</h2>
+                    <p>Por isso, antes de iniciarmos as aulas, você realiza uma <strong>avaliação diagnóstica</strong>.</p>
+                    <p>Essa avaliação permite identificar:</p>
+                    <ul>
+                        <li>✓ Seu nível de inglês</li>
+                        <li>✓ Seus objetivos</li>
+                        <li>✓ Suas dificuldades</li>
+                        <li>✓ Suas necessidades</li>
+                    </ul>
+                    <p>Assim, as aulas são totalmente personalizadas desde o primeiro encontro, e você aprende apenas o que realmente faz sentido para alcançar seus objetivos.</p>
+                </div>
+                <div class="personalized-image">
+                    <div class="placeholder-image-small">
+                        <i class="fas fa-clipboard-check"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Study Section -->
+    <section class="why-study">
+        <div class="container">
+            <h2>Por que estudar comigo?</h2>
+            <div class="why-study-grid">
+                <div class="why-card">
+                    <i class="fas fa-bullseye"></i>
+                    <h3>Plano de estudos personalizado</h3>
+                </div>
+                <div class="why-card">
+                    <i class="fas fa-book-open"></i>
+                    <h3>Material digital exclusivo</h3>
+                </div>
+                <div class="why-card">
+                    <i class="fas fa-comments"></i>
+                    <h3>Conversação desde o início</h3>
+                </div>
+                <div class="why-card">
+                    <i class="fas fa-scroll"></i>
+                    <h3>Conteúdo baseado nas suas necessidades</h3>
+                </div>
+                <div class="why-card">
+                    <i class="fas fa-chart-bar"></i>
+                    <h3>Acompanhamento contínuo</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- For Whom Section -->
+    <section class="for-whom">
+        <div class="container">
+            <h2>Para quem são as aulas?</h2>
+            <div class="for-whom-list">
+                <div class="for-whom-item">
+                    <i class="fas fa-check-circle"></i>
+                    <p>Quem está começando do zero</p>
+                </div>
+                <div class="for-whom-item">
+                    <i class="fas fa-check-circle"></i>
+                    <p>Quem quer destravar a conversação</p>
+                </div>
+                <div class="for-whom-item">
+                    <i class="fas fa-check-circle"></i>
+                    <p>Quem precisa de inglês para viagens</p>
+                </div>
+                <div class="for-whom-item">
+                    <i class="fas fa-check-circle"></i>
+                    <p>Quem deseja melhorar o inglês para o trabalho</p>
+                </div>
+                <div class="for-whom-item">
+                    <i class="fas fa-check-circle"></i>
+                    <p>Quem busca reforço escolar ou universitário</p>
+                </div>
+                <div class="for-whom-item">
+                    <i class="fas fa-check-circle"></i>
+                    <p>Quem quer estudar no próprio ritmo</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Plans Section -->
+    <section class="plans" id="planos">
+        <div class="container">
+            <h2>Planos</h2>
+            <div class="plans-grid">
+                <div class="plan-card">
+                    <div class="plan-header">Individual</div>
+                    <div class="plan-body">
+                        <p class="plan-description">Aulas totalmente personalizadas com foco exclusivo nos seus objetivos.</p>
+                        <p class="plan-ideal">Ideal para quem deseja uma evolução mais rápida.</p>
+                        <button class="btn btn-primary" onclick="scrollToSection('contato')">Escolher este plano</button>
+                    </div>
+                </div>
+                <div class="plan-card highlighted">
+                    <div class="plan-header">Dupla</div>
+                    <div class="plan-body">
+                        <p class="plan-description">Aprenda com um amigo, familiar ou parceiro de estudos.</p>
+                        <p class="plan-ideal">Mais interação e prática durante as aulas.</p>
+                        <button class="btn btn-primary" onclick="scrollToSection('contato')">Escolher este plano</button>
+                    </div>
+                </div>
+                <div class="plan-card">
+                    <div class="plan-header">Conversação</div>
+                    <div class="plan-body">
+                        <p class="plan-description">Encontros voltados para desenvolver fluência, confiança e pronúncia.</p>
+                        <p class="plan-ideal">Indicado para quem já possui uma base de inglês.</p>
+                        <button class="btn btn-primary" onclick="scrollToSection('contato')">Escolher este plano</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works">
+        <div class="container">
+            <h2>Como funcionam as aulas?</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <p>Você entra em contato pelo WhatsApp</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <p>Agendamos uma aula experimental</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <p>Realizamos a avaliação diagnóstica</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <p>Elaboro seu plano de estudos personalizado</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">5</div>
+                    <p>Começamos as aulas</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <h2>Perguntas frequentes</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h3>Qual plataforma é utilizada?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>As aulas acontecem pelo Google Meet, com compartilhamento de tela, materiais digitais e atividades interativas.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h3>Quanto tempo dura cada aula?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>As aulas têm duração de 60 minutos, podendo ser ajustadas conforme o plano escolhido.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h3>Preciso saber inglês?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Não. As aulas são adaptadas para todos os níveis, desde iniciantes até alunos avançados.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h3>Receberei material?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sim. Todo o material é digital, exclusivo e disponibilizado durante o curso.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta" id="contato">
+        <div class="container">
+            <h2>Agende sua aula experimental</h2>
+            <p>Descubra seu nível de inglês e receba um plano de estudos pensado especialmente para você.</p>
+            <a href="https://wa.me/5511999999999" target="_blank" class="btn btn-primary btn-large">
+                <i class="fab fa-whatsapp"></i> Quero falar no WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Your English, Your Way</h3>
+                    <p>O inglês que acompanha os seus objetivos.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="https://wa.me/+55 (32)99918-8036" target="_blank" title="WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="https://instagram.com/yourenglish" target="_blank" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="mailto:hello@yourenglish.com" title="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Your English, Your Way. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>https://www.instagram.com/yasmin_guimaraesa?igsh=MTA4azJ0b2YyOGl2bw%3D%3D&utm_source=qr" target="_blank" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="mailto:yasming.alves03@gmail.com" title="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Your English, Your Way. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
